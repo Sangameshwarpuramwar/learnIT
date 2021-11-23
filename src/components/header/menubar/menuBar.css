@@ -1,0 +1,10 @@
+.menu-bar{
+  list-style: none;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.menu-bar li{
+  padding-left: 20px;
+  color: black;
+}

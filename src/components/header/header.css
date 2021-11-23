@@ -1,0 +1,31 @@
+.header {
+  width: 100%;
+  color: black;
+ 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.header-title {
+  width: 20%;
+  text-align: center;
+  padding-top: 10px;
+}
+.header-text {
+  padding-left: 20px;
+  font-size: 24px;
+}
+.nav-bar {
+  width: 60%;
+}
+
+.right-bar {
+  flex-direction: row;
+  display: flex;
+  list-style: none;
+}
+.right-bar li {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
